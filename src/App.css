@@ -133,10 +133,9 @@ ul {
 .rules {
   position: absolute;
   right: 50px;
-  bottom: 50px;
-  padding: 0.5rem 2rem;
+  top: 50px;
+  padding: 0.3rem 1.5rem;
   letter-spacing: 2px;
-  font-size: 1.1rem;
   border: 1px solid hsl(217, 16%, 45%);
   background-color: hsl(214, 47%, 23%);
   border-radius: 10px;
@@ -284,6 +283,7 @@ SECTION === 'RESPONSIVE DESIGN' === SECTION
   }
   .score__container {
     padding: 0.3rem;
+    width: 95vw;
   }
 
   .score__board {
@@ -296,7 +296,7 @@ SECTION === 'RESPONSIVE DESIGN' === SECTION
   }
 
   .rules {
-    bottom: 0.3rem;
+    top: 0.3rem;
     right: 0.3rem;
   }
 
